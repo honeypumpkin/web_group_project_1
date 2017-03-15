@@ -1,6 +1,220 @@
-body {
-  margin: 0;
+/*
+font-family: 'PT Sans', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'PT Sans Narrow', sans-serif;
+*/
+
+.header div {
+
+
 }
+.nav {
+  color: #323232;
+
+}
+
+#nav-h1 {
+  font-family:'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  display: inline-block;
+
+}
+
+#nav-p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: .9em;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-left: 80%;
+
+
+}
+.main div {
+
+}
+
+.kitties div {
+  overflow: hidden;
+  display: inherit;
+
+
+}
+.img-circle {
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 80px
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+.intro {
+
+}
+.center {
+  max-width: 815px;
+  min-width: 600px;
+  margin: 0 auto;
+}
+
+.ladies {
+  max-width: 725px;
+  min-width: 600px;
+  margin: 0 auto;
+
+
+
+}
+
+h1 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  color: #323232;
+  text-align: center;
+  font-size: 1.875em;
+  display: inherit;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+
+
+}
+
+h2 {
+
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #00897F;
+  text-align: center;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin: 0 auto;
+
+}
+
+h3 {
+  font-family: 'PT Serif', serif;
+  color: #323232;
+  text-align: left;
+  font-size: 1em;
+  line-height: 2em;
+  margin: 0 auto;
+
+}
+
+.about div {
+  display: inline-block;
+  width: auto;
+}
+
+
+#kat {
+
+width: 240px;
+height: 240px;
+margin: 30px;
+background-color: #eeeeee;
+padding: 30px;
+
+}
+
+#mavis {
+
+width: 240px;
+height: 240px;
+margin: 30px;
+background-color: #eeeeee;
+padding: 30px;
+
+
+
+}
+
+p {
+
+  font-family: 'PT Serif', serif;
+  color: #323232;
+  text-align: left;
+  font-size: .875em;
+  line-height: 1.75em;
+  vertical-align: top;
+
+}
+
+.get {
+  background-color: #eeeeee;
+  padding: 80px 300px 80px 300px;
+  margin: 0 auto;
+
+}
+
+.touch div {
+  display: inline-block;
+  align-content: center;
+  width: 800px;
+  vertical-align: top;
+}
+
+#hours {
+
+  width: 270px;
+  margin: 30px;
+  background-color: #fbfbfb;
+  padding: 30px;
+
+}
+#contact {
+
+  width: 270px;
+  margin: 30px;
+  background-color: #fbfbfb;
+  padding: 30px;
+
+}
+.orange {
+  color: #f26522;
+  display: inline-block;
+  vertical-align: top;
+}
+.upper {
+  text-transform: uppercase;
+
+}
+
+.map div{
+
+display: block;
+max-width: 815px;
+min-width: 600px;
+margin: 0 auto;
+
+
+}
+
+.foot {
+  max-width: auto;
+  min-width: 600px;
+  margin: 0 auto;
+
+}
+
+footer h1{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.25em;
+  color: #323232 ;
+  background-color: #00897f;
+  padding: 20px;
+
+}
+
+
 
 
 /* On devices wider than 660px */
