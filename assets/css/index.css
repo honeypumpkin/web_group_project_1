@@ -4,75 +4,13 @@ font-family: 'PT Serif', serif;
 font-family: 'PT Sans Narrow', sans-serif;
 */
 
-.header div {
-
-
-}
-.nav {
-  color: #323232;
-
-}
-
-#nav-h1 {
-  font-family:'PT Sans Narrow', sans-serif;
-  font-weight: bold;
-  font-size: 1.5em;
-  display: inline-block;
-
-}
-
-#nav-p {
-  font-family: 'PT Sans', sans-serif;
-  font-size: .9em;
-  text-transform: uppercase;
-  display: inline-block;
-  margin-left: 80%;
-
-
-}
-.main div {
-
-}
-
-.kitties div {
-  overflow: hidden;
-  display: inherit;
-
-
-}
-.img-circle {
-  border-radius: 50%;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 80px
+/*Main font decleration*/
+html {
+  font-size: 16px;
 }
 
 
-img {
-  max-width: 100%;
-  height: auto;
-
-}
-
-.intro {
-
-}
-.center {
-  max-width: 815px;
-  min-width: 600px;
-  margin: 0 auto;
-}
-
-.ladies {
-  max-width: 725px;
-  min-width: 600px;
-  margin: 0 auto;
-
-
-
-}
-
+/*main page css*/
 h1 {
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight: bold;
@@ -84,20 +22,18 @@ h1 {
     -webkit-margin-after: 0px;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
-
-
 }
 
-h2 {
 
+h2 {
   font-family: 'PT Sans Narrow', sans-serif;
   color: #00897F;
   text-align: center;
   font-size: 1.5em;
   text-transform: uppercase;
   margin: 0 auto;
-
 }
+
 
 h3 {
   font-family: 'PT Serif', serif;
@@ -106,39 +42,17 @@ h3 {
   font-size: 1em;
   line-height: 2em;
   margin: 0 auto;
-
-}
-
-.about div {
-  display: inline-block;
-  width: auto;
 }
 
 
-#kat {
-
-width: 240px;
-height: 240px;
-margin: 30px;
-background-color: #eeeeee;
-padding: 30px;
+img {
+  max-width: 100%;
+  height: auto;
 
 }
 
-#mavis {
-
-width: 240px;
-height: 240px;
-margin: 30px;
-background-color: #eeeeee;
-padding: 30px;
-
-
-
-}
 
 p {
-
   font-family: 'PT Serif', serif;
   color: #323232;
   text-align: left;
@@ -148,36 +62,73 @@ p {
 
 }
 
-.get {
-  background-color: #eeeeee;
-  padding: 80px 300px 80px 300px;
-  margin: 0 auto;
+
+footer h1 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.25em;
+  color: #323232 ;
+  background-color: #00897f;
+  padding: 20px;
 
 }
 
-.touch div {
-  display: inline-block;
+
+nav {
+  color: #323232;
   align-content: center;
-  width: 800px;
-  vertical-align: top;
 }
 
-#hours {
 
-  width: 270px;
-  margin: 30px;
-  background-color: #fbfbfb;
-  padding: 30px;
+main {
 
 }
-#contact {
 
-  width: 270px;
-  margin: 30px;
-  background-color: #fbfbfb;
-  padding: 30px;
+
+.header div {
 
 }
+
+
+.kitties div {
+  overflow: hidden;
+  display: inherit;
+}
+
+
+.img-circle {
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 80px
+}
+
+
+.intro {
+
+}
+
+
+.center {
+  max-width: 815px;
+  min-width: 600px;
+  margin: 0 auto;
+}
+
+
+.ladies {
+  max-width: 725px;
+  min-width: 600px;
+  margin: 0 auto;
+}
+
+
+.about div {
+  display: inline-block;
+  width: auto;
+}
+
+
 .orange {
   color: #f26522;
   display: inline-block;
@@ -188,12 +139,13 @@ p {
 
 }
 
+
 .map div{
 
-display: block;
-max-width: 815px;
-min-width: 600px;
-margin: 0 auto;
+  display: block;
+  max-width: 815px;
+  min-width: 600px;
+  margin: 0 auto;
 
 
 }
@@ -205,22 +157,97 @@ margin: 0 auto;
 
 }
 
-footer h1{
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 1.25em;
-  color: #323232 ;
-  background-color: #00897f;
-  padding: 20px;
+
+.get {
+  background-color: #eeeeee;
+  padding: 80px 300px 80px 300px;
+  margin: 0 auto;
 
 }
 
 
-
-
-/* On devices wider than 660px */
-@media(min-width: 660px) {
+.touch div {
+  display: inline-block;
+  align-content: center;
+  width: 800px;
+  vertical-align: top;
 }
+
+
+#nav-h1 {
+  font-family:'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  display: inline-block;
+
+}
+
+
+#nav-p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: .9em;
+  text-transform: uppercase;
+  display: block;
+      /* text-align: right; */
+  float: right;
+      /* vertical-align: inherit; */
+  padding-top: 1%;
+}
+
+
+#kat {
+  width: 240px;
+  height: 240px;
+  margin: 30px;
+  background-color: #eeeeee;
+  padding: 30px;
+
+}
+
+
+#mavis {
+
+  width: 240px;
+  height: 240px;
+  margin: 30px;
+  background-color: #eeeeee;
+  padding: 30px;
+
+}
+
+
+#hours {
+
+  width: 270px;
+  margin: 30px;
+  background-color: #fbfbfb;
+  padding: 30px;
+
+}
+
+
+#contact {
+
+  width: 270px;
+  margin: 30px;
+  background-color: #fbfbfb;
+  padding: 30px;
+
+}
+
+/*media queries*/
 
 /* On devices wider than 940px */
-@media(min-width: 940px) {
+@media(max-width: 940px) {
+}
+
+/* On devices wider than 660px */
+@media(max-width: 660px) {
+}
+
+/* On devices wider than 400px */
+@media(max-width: 400px) {
+  #contact {
+    background-color: orange;
+  }
 }
